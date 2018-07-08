@@ -1,0 +1,17 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kazuyaseki/graphql-demo",
+  "author": "kazuya-seki <track613armory@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.0.0-rc.5",
+    "casual": "^1.5.19",
+    "graphql": "^0.13.2"
+  },
+  "scripts": {
+    "demo": "open ./client/index.html",
+    "server": "node ./server/server.js"
+  }
+}
